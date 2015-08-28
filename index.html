@@ -57,8 +57,7 @@
 <li ><a href="/">C/C++</a></li>
 <li ><a href="/">Python</a></li>
 <li ><a href="/">Prolog</a></li>
-<li ><a href="/pages/about-me.html">About</a></li>
-                  <li ><a href="/pages/about-me.html">About Me</a></li>
+<li ><a href="/">About</a></li>
             </ul>
               <form class="navbar-search pull-right" action="http://www.google.com" target="_blank">
                 <input type="text" name="q" class="search-query span2" placeholder="Search"/>
@@ -86,6 +85,17 @@
 
       <h2>Articles</h2>
 
+      <article>
+        <header>
+          <h2><a href="/house-archietecture.html" rel="bookmark" title="Permalink to House Archietecture">House Archietecture</a></h2>
+        </header>
+        <div><p>做完做了架构的 House 架构的设计， 因为是一个人要做完产品 设计 UI 程序 测试 的事情， 而且需要在 9 月 15 日之前完成产品的雏形。</p>
+<p>我前一天做了产品分析， 现在就是设计的地方， 昨晚画了 10 张交互设计图， 产品的交互有了个大体的雏形。 UI 方面， 由于美工能力的欠缺， 要做出一个有 Biger 的产品， 我也只能够说是尽量采用动画来替代 UI 了。</p>
+<p>程序方面工作确实就要重一些了。 从现有的图表来看， 要生成的 View 数目比较多， 是目前我做过的项目里 View 最多的一个， 另外动画效果尽管代码多是从 code4App 上寻找的， 但是实际集成的时候会遇到什么问题谁也说不清。 </p>
+<p>其实我倒是很愿意采用 BDD 开发， 不过因为我的 BDD 水平也是有自知， 不希望为当前的项目添加不稳定因素， 所以等我做完这个项目还需要学习 BDD ...</p></div>
+        <div><a class="btn btn-primary" href="/house-archietecture.html"><strong>➟ Read more</strong></a></div>
+      </article>
+      <hr/>
       <article>
         <header>
           <h2><a href="/ios-core-data.html" rel="bookmark" title="Permalink to iOS Core Data">iOS Core Data</a></h2>
@@ -255,23 +265,6 @@ https://class.coursera.org/reactive-002/lecture</p>
 <li>今天偶然的机会，我打开了书签中的《钟吕传道集》，首先我发现了里面抽象层次的东西确实不少，不论是讲解天地交合过程的逻辑，还是五行生克，母子夫妻关系，都是重点集中在看不见摸不着的层次。</li>
 <li>其次，《钟吕》一书中还点醒了我，应证了我以前不敢下结论的一个想法，道于一切之中，道成一切 ...</li></ol></div>
         <div><a class="btn btn-primary" href="/sicpzhong-de-chou-xiang-si-wei.html"><strong>➟ Read more</strong></a></div>
-      </article>
-      <hr/>
-      <article>
-        <header>
-          <h2><a href="/sockettcpbian-cheng-de-mi-wu.html" rel="bookmark" title="Permalink to Socket（TCP）编程的迷雾">Socket（TCP）编程的迷雾</a></h2>
-        </header>
-        <div><blockquote>
-<p>前两天学习了SICP的开头部分（到1.2），但是帮助已经很明显了，现在我对过程的处理能力较之以往有明显提升，所以推荐大家都来看SICP，学习Lisp哦！</p>
-</blockquote>
-<p>今天的时间比较满，主要是对手机端和服务器端以及控制LED灯的情景进行了模拟，先是在iPhone端的同一个界面进行模拟，从开关同步开始，逐步扩展代码，在成功模拟了消息传递控制以后，又使用Socket与服务端进行了通信。最后发现了几样东西。</p>
-<p>1）原来Socket协议只能是Client方主动发送消息，然后服务器才能回复消息。</p>
-<p>2）而且Socket数据流中的数据是粘滞的，几个数据分开发送，如果另一端没有接收的话，则会粘在一起。</p>
-<p>1）对于这种情况，如果我希望服务端可以发送消息给client，那么我可以保持一个心跳，心跳时间很短，然后服务器发送的消息就可以传到client。</p>
-<p>对于Socket，如果自己不太清楚它的底层结构，那么很容易出问题了是搞不懂的。</p>
-<p>比如就上面所描述的几样问题，刚才我又模拟了一个MAC上的测试工具，建立了一套互通的Socket，发现服务器可以给客户端直接发送信息，而不是我1）描述的那样，是不需要每次都由客户端发消息来的。</p>
-<p>那么问题就出在了我使用的第三方库AsynSocket上面。</p></div>
-        <div><a class="btn btn-primary" href="/sockettcpbian-cheng-de-mi-wu.html"><strong>➟ Read more</strong></a></div>
       </article>
       <hr/>
 
